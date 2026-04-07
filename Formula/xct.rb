@@ -1,7 +1,7 @@
 class Xct < Formula
   desc "Automation scripts for Xcode projects"
   homepage "https://github.com/albtugel/xcode-cli-tools"
-  url "https://github.com/albtugel/xcode-cli-tools/archive/refs/tags/v1.0.0.tar.gz"
+  url "https://github.com/albtugel/xcode-cli-tools/archive/refs/tags/v1.0.1.tar.gz"
   # Оставляем тот хеш, который у тебя сработал последним (начинается на 28f489...)
   sha256 "f0291055ac13c35036059d5291bafa566fb823349942b1715ee63cd48a838949"
   license "MIT"
