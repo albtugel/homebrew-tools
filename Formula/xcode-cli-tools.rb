@@ -2,11 +2,12 @@ class XcodeCliTools < Formula
   desc "Lightweight Zsh scripts to automate Xcode project navigation and CLI builds"
   homepage "https://github.com/albtugel/xcode-cli-tools"
   url "https://github.com/albtugel/xcode-cli-tools/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "11e289e63c5970c0c80b27b4010a3737b60098f92985160b7381440798e4d35e"
+  
+  sha256 "28f48946fdc84c4f42e2591d258f81461cb391508c85e7e5941c1bbfe7e3c751"
   license "MIT"
 
   def install
-    # Устанавливаем все .zsh файлы в директорию share
+   
     pkgshare.install Dir["*.zsh"]
   end
 
@@ -25,7 +26,6 @@ class XcodeCliTools < Formula
   end
 
   test do
-    # Простая проверка, что файлы существуют после установки
     assert_predicate opt_pkgshare/"OpenXcodeProj.zsh", :exist?
   end
 end
