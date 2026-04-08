@@ -1,8 +1,8 @@
 class Xct < Formula
   desc "Automation scripts for Xcode projects"
   homepage "https://github.com/albtugel/xcode-cli-tools"
-  url "https://github.com/albtugel/xcode-cli-tools/archive/refs/tags/v1.0.3.tar.gz"
-  sha256 "abb33095f1214e52e7598adf7f346a91a547ad98fedae1d8a1fd737469943c85"
+  url "https://github.com/albtugel/xcode-cli-tools/archive/refs/tags/v1.0.4.tar.gz"
+  sha256 "a726816b70aeb3cabd64ebd05414e47f662df78bc001637ed6ba111b07803957"
   license "MIT"
 
   def install
